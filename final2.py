@@ -85,4 +85,3 @@ while True:
 a.execute("""select * from mytable;""")
 print(a.fetchall())
 db.close()
-#Python
