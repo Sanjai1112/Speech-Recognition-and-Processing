@@ -3,7 +3,7 @@ import speech_recognition as sr
 import pygame
 import time 
 import MySQLdb  
-db=MySQLdb.connect('localhost','dinesh','Dinesh@1997','pythonproject')
+db=MySQLdb.connect('localhost','sanjai','Sanjai@1997','pythonproject')
 a = db.cursor()
 def function():
     tts=gTTS(text="What problem do you have",lang="en")
